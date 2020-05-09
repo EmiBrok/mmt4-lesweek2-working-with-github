@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Emi Brok</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+
+        <header> 
+            <nav>
+                <ul>
+                    <li><a href='#' id='blackHeading'> H2 Zwart </a></li>
+                    <li><a href='#' id='comicSans'>Comic Sans</a></li>
+                    <li><a href='#' id='beep'>Beep</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div id="accordion">
+                <h3>Section 1</h3>
+                <div>
+                  <p>
+                  Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                  ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                  amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                  odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                  </p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                  <p>
+                  Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                  purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                  velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                  suscipit faucibus urna.
+                  </p>
+                </div>
+                <h3>Section 3</h3>
+                <div>
+                  <p>
+                  Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                  Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                  ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                  lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                  </p>
+                  <ul>
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                  </ul>
+                </div>
+                <h3>Section 4</h3>
+                <div>
+                  <p>
+                  Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                  et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                  faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                  mauris vel est.
+                  </p>
+                  <p>
+                  Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                  inceptos himenaeos.
+                  </p>
+                </div>
+            </div>
+
+            <article>
+                <header>
+                    <h2>"LOVE IN THE DARK"</h2>
+                </header>
+
+                <p> We're only humans floating on a rock. But I think that you are made of stardust. Unconditional, you put up with so much. I could never repay the way you love.
+                    Back to the sky, we all have to fly back home, back homeThe sweetest goodbyes are never with smiles at all. But when our lives are running out.
+                    And your heartbeat has taken the draw. Could you try to look around? I'll be there to pull you back up. I'll be around you, I'm nothing without you.
+                    I won't leave you alone. 'Cause when the stars are falling down. There's love in the dark. </p>
+
+                <p> I'd do anything to relive our memories. And listen to your songs play in my head. 'Cause I hate the silence, it's the only thing I get.
+                    I wish I could hear your voice once again. And your heartbeat, all of the small things, oh, oh. The sweetest goodbyes are never with smiles at all.
+                    But when our lives are running out. And your heartbeat has taken the draw. Could you try to look around? I'll be there to pull you back up.
+                    I'll be around you, I'm nothing without you. And I can't leave you alone. And when the stars are falling down. There's love in the dark. </p>
+                
+                <p> I thank God for everything (Ooh, ooh). That you showed me, that you showed me, yeah (Ooh). And I thank God for everything (Ooh, ooh). That you showed me, that you showed me (Ooh).
+                    But when our lives are running out. And your heartbeat has taken the draw. Could you try to look around? I'll be there to pull you back up.
+                    I'll be around you, I'm nothing without you. And I can't leave you alone. And when the stars are falling down. There's love in the dark. </p>
+
+                <p> My money's in that office, right? If she start giving me some <span>bullshit</span> about it ain't there, and we got to go someplace else and get it, 
+                    I'm gonna shoot you in the head then and there. Then I'm gonna shoot that <span>bitch</span> in the kneecaps, find out where my <span>goddamn</span> money is. 
+                    She gonna tell me too. Hey, look at me when I'm talking to you, <span>motherfucker</span>.
+                    Jackie Brown (1997) </p>
+
+                <div class = "image"> 
+                    <img src="/img/jessie@2x.jpeg" alt="Jessie Reyez">
+                </div>
+                <div class = "image"> 
+                    <div class="jessie"> </div>
+                </div>
+                <div class="clear"></div>
+
+                <footer> 
+                    <p>By Jessie Reyes</p> 
+                    <div class="clear"></div>
+                </footer>  
+            </article>
+
+        </main>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <script>
+            var fontColor = '#000';
+            var font = "Comic Sans MS";
+
+             
+            $( document ).ready(function() {
+                //console.log('hello MAMDT');
+
+                $(function() { // voer functie uit zodra DOM klaar is
+                    $( "#accordion" ).accordion(); // de accordion functie van jQuery UI
+                });
+
+               
+                $('#blackHeading').click(function(){
+                    $('h2').css({'color':fontColor});
+                });	
+
+                $('#comicSans').click(function(){
+                    $('main').css({'font-family': font});
+                    $('a').css({'font-family': font});
+                });
+
+                $('#beep').click(function(){
+                    $('span').text('*beep*');
+                });
+            });
+        </script>
+        
+    </body>
+</html>
